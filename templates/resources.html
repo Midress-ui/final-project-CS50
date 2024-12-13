@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mental Health Resources</title>
+    <style>
+      body {
+        font-family: "Georgia", serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        text-align: center;
+        background-color: #006400;
+        color: white;
+        padding: 15px;
+        border-bottom: 5px solid #006400;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2em;
+      }
+
+      .intro {
+        text-align: center;
+        margin: 20px auto;
+        font-size: 1.2em;
+        padding: 0 20px;
+        max-width: 800px;
+      }
+
+      .links-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      .link-card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+        border: 2px solid #e0e0e0;
+      }
+
+      .link-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        border-color: #006400;
+      }
+
+      .link-card a {
+        text-decoration: none;
+        color: #228b22;
+        font-weight: bold;
+        font-size: 1.1em;
+        transition: color 0.3s;
+      }
+
+      .link-card a:hover {
+        color: #006400;
+      }
+
+      footer {
+        text-align: center;
+        background-color: #006400;
+        color: white;
+        padding: 10px;
+        border-top: 5px solid #006400;
+      }
+
+      footer a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin: 0 10px;
+        transition: color 0.3s;
+      }
+
+      footer a:hover {
+        color: #f9f871;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mental Health Resources</h1>
+    </header>
+    <div class="intro">
+      <p>Here you will find helpful articles and videos about mental health</p>
+    </div>
+
+    <div class="links-container">
+      <div class="link-card">
+        <a href="https://www.cvv.org.br"
+          >Life Enhancement Center - emotional support</a
+        >
+      </div>
+      <div class="link-card">
+        <a href="http://www.amigosdozippy.org.br">Emotional Education</a>
+      </div>
+      <div class="link-card">
+        <a href="https://www.podefalar.org.br"
+          >Mental health support for young people (13-24 years)</a
+        >
+      </div>
+      <div class="link-card">
+        <a
+          href="https://vitaalere.com.br/sobre-o-suicidio/posvencao/grupo-de-sobreviventes/"
+          >Suicide Survivor Support Groups</a
+        >
+      </div>
+      <div class="link-card">
+        <a href="http://www.abeps.org.br/"
+          >Brazilian Association for Suicide Studies and Prevention</a
+        >
+      </div>
+      <div class="link-card">
+        <a href="https://www.gov.br/anvisa/pt-br/assuntos/tabaco/disque-saude"
+          >Dial Health 136</a
+        >
+      </div>
+      <div class="link-card">
+        <a href="https://movimentosaberlidar.org.br"
+          >Know How to Deal Movement</a
+        >
+      </div>
+      <div class="link-card">
+        <a href="https://mapasaudemental.com.br">Mental Health Map</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        <a href="http://127.0.0.1:5000/">Home</a> |
+        <a href="http://127.0.0.1:5000/forum">Forum</a> |
+        <a href="http://127.0.0.1:5000/encouragement">Encouragement</a>
+      </p>
+    </footer>
+  </body>
+</html>

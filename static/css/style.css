@@ -1,0 +1,97 @@
+body {
+  font-family: "Georgia";
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Georgia";
+  font-size: 2.3rem;
+  color: #006400;
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav {
+  background-color: #006400;
+  padding: 22px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  font-size: 15px;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.description {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  line-height: 1.8;
+}
+
+.description p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.description p strong {
+  color: #006400;
+}
+
+
+#chatbot {
+  width: 90%; 
+  margin: 20px auto; 
+  padding: 20px; 
+  background-color: #eaf6ea; 
+  border: 1px solid #006400; 
+  border-radius: 8px;
+}
+
+#chatbot textarea {
+  width: 95%; 
+  height: 150px; 
+  padding: 10px;
+  font-size: 18px; 
+  border-radius: 6px; 
+  border: 1px solid #ccc;
+}
+
+#chatbot button {
+  font-size: 18px; 
+  padding: 10px 25px; 
+  border-radius: 8px; 
+}
+
+#response {
+  width: 70%; 
+  margin: 20px auto; 
+  padding: 15px; 
+  background-color: #f9f9f9; 
+  border-left: 4px solid #006400; 
+  border-radius: 6px; 
+}
+
+#response span {
+  font-size: 16px; 
+  font-weight: bold;
+}
+
+#response strong {
+  font-size: 20px; 
+  color: #006400; 
+}
