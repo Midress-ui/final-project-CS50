@@ -1,2 +1,11 @@
 Flask==2.x.x
 Flask-SQLAlchemy==2.x.x
+
+# Criar um ambiente virtual
+virtualenv venv
+
+# Ativar o ambiente virtual
+source venv/bin/activate
+
+# Instalar as dependências
+pip install -r requirements.txt
